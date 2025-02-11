@@ -23,4 +23,6 @@ git clone https://github.com/Wudblzs/hash-checker-tool.git
 python src/app/main.py
 
 # 打包exe
-pyinstaller --onefile --windowed src/app/main.py
+pyinstaller -F -w \
+--icon=resources/app_icon.ico \
+main.py
