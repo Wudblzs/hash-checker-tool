@@ -17,10 +17,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourname/hash-checker-tool.git
-
-# 安装依赖
-pip install -r requirements.txt
+git clone https://github.com/Wudblzs/hash-checker-tool.git
 
 # 运行程序
 python src/app/main.py
